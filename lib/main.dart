@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: myRoutes,
-      initialRoute: WhatsApp.routeName,
+      initialRoute: LoginScreen.routeName,
       debugShowCheckedModeBanner: false,
-      home: const WhatsApp(),
+      home: const LoginScreen(),
     );
   }
 }

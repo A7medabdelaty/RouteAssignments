@@ -85,7 +85,7 @@ class WhatsApp extends StatelessWidget {
                       border: const Border.fromBorderSide(
                           BorderSide(width: 2, color: Colors.white))),
                   child: const Text(
-                    'This is My Secound Message',
+                    'This is My Second Message',
                     style: TextStyle(color: Colors.white, fontSize: 18),
                   ),
                 ),
