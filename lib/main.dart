@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterassignments/home_screen.dart';
 import 'package:flutterassignments/login_screen.dart';
+import 'package:flutterassignments/whatsapp_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,9 +20,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: myRoutes,
-      initialRoute: LoginScreen.routeName,
+      initialRoute: WhatsApp.routeName,
       debugShowCheckedModeBanner: false,
-      home: const LoginScreen(),
+      home: const WhatsApp(),
     );
   }
 }

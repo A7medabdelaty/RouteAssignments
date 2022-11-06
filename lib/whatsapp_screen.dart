@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-class WatsChat extends StatelessWidget {
-  const WatsChat({Key? key}) : super(key: key);
+class WhatsApp extends StatelessWidget {
+  const WhatsApp({Key? key}) : super(key: key);
+
+  static String routeName = 'Whatsapp Chat';
 
   @override
   Widget build(BuildContext context) {
@@ -91,7 +93,7 @@ class WatsChat extends StatelessWidget {
                   width: 15,
                 ),
                 const CircleAvatar(
-                  backgroundImage: AssetImage('assets/images/person.jpg'),
+                  backgroundImage: AssetImage('assets/images/person1.jpg'),
                   radius: 25,
                 ),
               ],
